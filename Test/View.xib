@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comact width" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APF-fm-61i">
+                    <rect key="frame" x="68" y="155" width="105" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="regular width" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCw-ad-Dkd">
+                    <rect key="frame" x="68" y="178" width="100" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comact height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHa-RB-L7j">
+                    <rect key="frame" x="65" y="10" width="110" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="regular height" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yGK-0y-Dl4">
+                    <rect key="frame" x="65" y="33" width="105" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c82-Cs-kod">
+                    <rect key="frame" x="50" y="50" width="50" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Oht-l2-3IM"/>
+                        <constraint firstAttribute="width" constant="50" id="gnU-Ad-UIg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZH-V3-Ka5">
+                    <rect key="frame" x="127" y="50" width="50" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.91858309510000002" blue="0.10117160529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="C43-wS-4H9"/>
+                        <constraint firstAttribute="height" constant="50" id="oas-ga-Dup"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="xCw-ad-Dkd" firstAttribute="top" secondItem="APF-fm-61i" secondAttribute="bottom" constant="2" id="8NO-pS-hvk"/>
+                <constraint firstAttribute="centerX" secondItem="yGK-0y-Dl4" secondAttribute="centerX" id="FV6-Cb-gT7"/>
+                <constraint firstAttribute="bottom" secondItem="APF-fm-61i" secondAttribute="bottom" constant="14" id="JX7-Xy-dR7"/>
+                <constraint firstAttribute="bottom" secondItem="xCw-ad-Dkd" secondAttribute="bottom" constant="41" id="N1j-pT-h8F"/>
+                <constraint firstItem="yGK-0y-Dl4" firstAttribute="top" secondItem="xHa-RB-L7j" secondAttribute="bottom" constant="2" id="QzJ-k8-KXP"/>
+                <constraint firstItem="xCw-ad-Dkd" firstAttribute="leading" secondItem="APF-fm-61i" secondAttribute="leading" id="Tc1-9E-Y1a"/>
+                <constraint firstAttribute="centerX" secondItem="xCw-ad-Dkd" secondAttribute="centerX" id="Ujr-dG-GBR"/>
+                <constraint firstItem="c82-Cs-kod" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="V3k-5c-uXB"/>
+                <constraint firstItem="xHa-RB-L7j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cJR-WI-dlY"/>
+                <constraint firstItem="DZH-V3-Ka5" firstAttribute="top" secondItem="c82-Cs-kod" secondAttribute="top" id="cQd-MK-dD0"/>
+                <constraint firstItem="c82-Cs-kod" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="kzg-2b-E6g"/>
+                <constraint firstAttribute="centerX" secondItem="xHa-RB-L7j" secondAttribute="centerX" id="pyG-M4-Omf"/>
+                <constraint firstItem="DZH-V3-Ka5" firstAttribute="leading" secondItem="c82-Cs-kod" secondAttribute="trailing" constant="27" id="r3l-Lv-CGD"/>
+                <constraint firstItem="DZH-V3-Ka5" firstAttribute="top" secondItem="c82-Cs-kod" secondAttribute="bottom" constant="20" id="v8i-CY-ajV"/>
+                <constraint firstAttribute="centerX" secondItem="APF-fm-61i" secondAttribute="centerX" id="xlt-IB-sht"/>
+                <constraint firstItem="yGK-0y-Dl4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="33" id="yZf-hP-sPt"/>
+                <constraint firstItem="DZH-V3-Ka5" firstAttribute="leading" secondItem="c82-Cs-kod" secondAttribute="leading" id="zO4-SF-Dgk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="APF-fm-61i"/>
+                    <exclude reference="xCw-ad-Dkd"/>
+                    <exclude reference="xHa-RB-L7j"/>
+                    <exclude reference="yGK-0y-Dl4"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="FV6-Cb-gT7"/>
+                    <exclude reference="yZf-hP-sPt"/>
+                    <exclude reference="N1j-pT-h8F"/>
+                    <exclude reference="Ujr-dG-GBR"/>
+                    <exclude reference="v8i-CY-ajV"/>
+                    <exclude reference="zO4-SF-Dgk"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="subviews">
+                    <include reference="xHa-RB-L7j"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="yGK-0y-Dl4"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="FV6-Cb-gT7"/>
+                    <include reference="yZf-hP-sPt"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="APF-fm-61i"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="cQd-MK-dD0"/>
+                    <exclude reference="r3l-Lv-CGD"/>
+                    <include reference="v8i-CY-ajV"/>
+                    <include reference="zO4-SF-Dgk"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=regular">
+                <mask key="subviews">
+                    <include reference="xCw-ad-Dkd"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="N1j-pT-h8F"/>
+                    <include reference="Ujr-dG-GBR"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="328" y="248"/>
+        </view>
+    </objects>
+</document>
